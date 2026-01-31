@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Groups Apache log entries by IP and HTTP code, sorted by occurrence
+awk '{print $1, $9}' apache-access.log | sort | uniq -c | sort -nr
