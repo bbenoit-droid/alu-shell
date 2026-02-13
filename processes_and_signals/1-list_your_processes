@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #display of all  process
 ps auxf
 
