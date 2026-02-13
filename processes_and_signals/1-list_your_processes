@@ -1,0 +1,4 @@
+#!/bin/bash
+#display of all  process
+ps auxf
+
