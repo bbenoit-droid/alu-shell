@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#dislay words with bash
+ps auxf |grep "bash"
+# shellcheck disable=SC2009 
